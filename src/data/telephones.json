@@ -1,52 +1,302 @@
 [
   {
     "id": 1,
-    "nombre": "Galaxy S25 Ultra",
+    "nombre": "Galaxy S25 Ultra 12GB RAM",
     "marca": "Samsung",
-    "sistema": "Android 15",
-    "pantalla": "6.0",
-    "precio": 800,
-    "fechaSalida": "2025-01-15",
-    "imagen": "" 
+    "sistema": "Android",
+    "pantalla": "6.9",
+    "precio": 1299,
+    "fechaSalida": "2025-01-22",
+    "imagen": ""
   },
   {
     "id": 2,
-    "nombre": "Xiaomi Mi 16 Pro",
-    "marca": "Xiaomi",
-    "sistema": "Android 15",
-    "pantalla": "6.5",
-    "precio": 500,
-    "fechaSalida": "2025-06-10",
-    "imagen": "" 
+    "nombre": "Galaxy S25",
+    "marca": "Samsung",
+    "sistema": "Android",
+    "pantalla": "6.2",
+    "precio": 799,
+    "fechaSalida": "2025-01-22",
+    "imagen": ""
   },
   {
     "id": 3,
-    "nombre": "iPhone Quantum",
-    "marca": "Iphone",
-    "sistema": "iOS 56",
-    "pantalla": "5.5",
-    "precio": 1200,
-    "fechaSalida": "2026-03-01",
-    "imagen": "" 
+    "nombre": "Galaxy S24 Ultra",
+    "marca": "Samsung",
+    "sistema": "Android",
+    "pantalla": "6.8",
+    "precio": 1299,
+    "fechaSalida": "2024-01-31",
+    "imagen": ""
   },
   {
     "id": 4,
-    "nombre": "Nokia Retro-X",
-    "marca": "Nokia",
-    "sistema": "Windows 10",
-    "pantalla": "5.0",
-    "precio": 300,
-    "fechaSalida": "2023-11-20",
-    "imagen": "" 
+    "nombre": "Galaxy Z Fold 7",
+    "marca": "Samsung",
+    "sistema": "Android",
+    "pantalla": "8.0",
+    "precio": 1999,
+    "fechaSalida": "2025-07-25",
+    "imagen": ""
   },
   {
     "id": 5,
-    "nombre": "Huawei Pura 80",
+    "nombre": "Galaxy Z Flip 7",
+    "marca": "Samsung",
+    "sistema": "Android",
+    "pantalla": "6.9",
+    "precio": 1099,
+    "fechaSalida": "2025-07-25",
+    "imagen": ""
+  },
+  {
+    "id": 6,
+    "nombre": "iPhone 17 Pro Max",
+    "marca": "Apple",
+    "sistema": "iOS",
+    "pantalla": "6.9",
+    "precio": 1199,
+    "fechaSalida": "2025-09-19",
+    "imagen": ""
+  },
+  {
+    "id": 7,
+    "nombre": "iPhone 17 Pro",
+    "marca": "Apple",
+    "sistema": "iOS",
+    "pantalla": "6.3",
+    "precio": 1099,
+    "fechaSalida": "2025-09-19",
+    "imagen": ""
+  },
+  {
+    "id": 8,
+    "nombre": "iPhone 16",
+    "marca": "Apple",
+    "sistema": "iOS",
+    "pantalla": "6.1",
+    "precio": 799,
+    "fechaSalida": "2024-09-20",
+    "imagen": ""
+  },
+  {
+    "id": 9,
+    "nombre": "iPhone 15",
+    "marca": "Apple",
+    "sistema": "iOS",
+    "pantalla": "6.1",
+    "precio": 699,
+    "fechaSalida": "2023-09-22",
+    "imagen": ""
+  },
+  {
+    "id": 10,
+    "nombre": "Xiaomi 15 Ultra",
+    "marca": "Xiaomi",
+    "sistema": "Android",
+    "pantalla": "6.73",
+    "precio": 999,
+    "fechaSalida": "2025-03-02",
+    "imagen": ""
+  },
+  {
+    "id": 11,
+    "nombre": "Xiaomi 15",
+    "marca": "Xiaomi",
+    "sistema": "Android",
+    "pantalla": "6.36",
+    "precio": 699,
+    "fechaSalida": "2024-10-29",
+    "imagen": ""
+  },
+  {
+    "id": 12,
+    "nombre": "Redmi Note 14 Pro+",
+    "marca": "Xiaomi",
+    "sistema": "Android",
+    "pantalla": "6.67",
+    "precio": 499,
+    "fechaSalida": "2025-01-15",
+    "imagen": ""
+  },
+  {
+    "id": 13,
+    "nombre": "Google Pixel 9 Pro XL",
+    "marca": "Google",
+    "sistema": "Android",
+    "pantalla": "6.8",
+    "precio": 1099,
+    "fechaSalida": "2024-08-22",
+    "imagen": ""
+  },
+  {
+    "id": 14,
+    "nombre": "Google Pixel 9 Pro",
+    "marca": "Google",
+    "sistema": "Android",
+    "pantalla": "6.3",
+    "precio": 999,
+    "fechaSalida": "2024-08-22",
+    "imagen": ""
+  },
+  {
+    "id": 15,
+    "nombre": "Google Pixel 9",
+    "marca": "Google",
+    "sistema": "Android",
+    "pantalla": "6.3",
+    "precio": 799,
+    "fechaSalida": "2024-08-22",
+    "imagen": ""
+  },
+  {
+    "id": 16,
+    "nombre": "OnePlus 13",
+    "marca": "OnePlus",
+    "sistema": "Android",
+    "pantalla": "6.82",
+    "precio": 899,
+    "fechaSalida": "2025-01-07",
+    "imagen": ""
+  },
+  {
+    "id": 17,
+    "nombre": "OnePlus 12",
+    "marca": "OnePlus",
+    "sistema": "Android",
+    "pantalla": "6.82",
+    "precio": 799,
+    "fechaSalida": "2024-02-06",
+    "imagen": ""
+  },
+  {
+    "id": 18,
+    "nombre": "Sony Xperia 1 VI",
+    "marca": "Sony",
+    "sistema": "Android",
+    "pantalla": "6.5",
+    "precio": 1299,
+    "fechaSalida": "2024-06-01",
+    "imagen": ""
+  },
+  {
+    "id": 19,
+    "nombre": "Sony Xperia 5 V",
+    "marca": "Sony",
+    "sistema": "Android",
+    "pantalla": "6.1",
+    "precio": 999,
+    "fechaSalida": "2023-09-29",
+    "imagen": ""
+  },
+  {
+    "id": 20,
+    "nombre": "Motorola Edge 50 Pro",
+    "marca": "Motorola",
+    "sistema": "Android",
+    "pantalla": "6.7",
+    "precio": 699,
+    "fechaSalida": "2024-04-16",
+    "imagen": ""
+  },
+  {
+    "id": 21,
+    "nombre": "Motorola Razr 50 Ultra",
+    "marca": "Motorola",
+    "sistema": "Android",
+    "pantalla": "6.9",
+    "precio": 999,
+    "fechaSalida": "2024-07-10",
+    "imagen": ""
+  },
+  {
+    "id": 22,
+    "nombre": "Nothing Phone (3)",
+    "marca": "Nothing",
+    "sistema": "Android",
+    "pantalla": "6.67",
+    "precio": 799,
+    "fechaSalida": "2025-07-15",
+    "imagen": ""
+  },
+  {
+    "id": 23,
+    "nombre": "Nothing Phone (2)",
+    "marca": "Nothing",
+    "sistema": "Android",
+    "pantalla": "6.7",
+    "precio": 599,
+    "fechaSalida": "2023-07-17",
+    "imagen": ""
+  },
+  {
+    "id": 24,
+    "nombre": "Huawei Pura 70 Ultra",
     "marca": "Huawei",
-    "sistema": "Android 15",
-    "pantalla": "6.0",
-    "precio": 700,
-    "fechaSalida": "2024-09-05",
-    "imagen": "" 
+    "sistema": "HarmonyOS",
+    "pantalla": "6.8",
+    "precio": 1299,
+    "fechaSalida": "2024-04-18",
+    "imagen": ""
+  },
+  {
+    "id": 25,
+    "nombre": "HONOR Magic7 Pro",
+    "marca": "HONOR",
+    "sistema": "Android",
+    "pantalla": "6.8",
+    "precio": 1099,
+    "fechaSalida": "2025-01-15",
+    "imagen": ""
+  },
+  {
+    "id": 26,
+    "nombre": "HONOR 200 Pro",
+    "marca": "HONOR",
+    "sistema": "Android",
+    "pantalla": "6.78",
+    "precio": 699,
+    "fechaSalida": "2024-05-31",
+    "imagen": ""
+  },
+  {
+    "id": 27,
+    "nombre": "ASUS ROG Phone 9 Pro",
+    "marca": "ASUS",
+    "sistema": "Android",
+    "pantalla": "6.78",
+    "precio": 1199,
+    "fechaSalida": "2024-11-19",
+    "imagen": ""
+  },
+  {
+    "id": 28,
+    "nombre": "ASUS Zenfone 11 Ultra",
+    "marca": "ASUS",
+    "sistema": "Android",
+    "pantalla": "6.78",
+    "precio": 899,
+    "fechaSalida": "2024-03-14",
+    "imagen": ""
+  },
+  {
+    "id": 29,
+    "nombre": "Oppo Find X8 Pro",
+    "marca": "OPPO",
+    "sistema": "Android",
+    "pantalla": "6.78",
+    "precio": 1099,
+    "fechaSalida": "2024-11-21",
+    "imagen": ""
+  },
+  {
+    "id": 30,
+    "nombre": "Vivo X200 Pro",
+    "marca": "vivo",
+    "sistema": "Android",
+    "pantalla": "6.78",
+    "precio": 999,
+    "fechaSalida": "2024-10-14",
+    "imagen": ""
   }
 ]

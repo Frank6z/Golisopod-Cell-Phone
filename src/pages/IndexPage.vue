@@ -25,7 +25,6 @@
           <q-btn dense size="sm" color="secondary" icon="clear" @click="ordenFecha = null" title="Quitar orden de fecha"/>
         </q-btn-group>
       </div>
-
     </div>
 
     <div class="row q-col-gutter-md q-mt-md">
