@@ -3,10 +3,20 @@
     <q-header elevated>
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
-
-        <q-toolbar-title> Quasar App </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+          <div class="row items-center q-gutter-sm">
+             <q-toolbar-title class="text-weight-bold"> Goli-Cell-Phone </q-toolbar-title>
+             <img src="../assets/Golicell_Logo.png" height="100px" width=auto fit="contain"/>
+          </div>
+          <q-space />
+          <div class="row items-center q-gutter-md gt-xs">
+            <q-input bg-color="blue-grey-4" rounded outlined v-model="textoBusqueda" label="Buscar" style="width: 220px;" @update:model-value="filtrarTelefonos">
+              <template #prepend><q-icon name="search"/></template>
+            </q-input>
+            <q-btn flat label="Inicio" icon="home" to="/" />
+            <q-btn flat label="Estadísticas" icon="bar_chart" to="/stats" />
+          </div>
+          <q-space />
+          <q-btn round color="purple" glossy icon="local_grocery_store" to="/cart" />           
       </q-toolbar>
     </q-header>
 
@@ -26,7 +36,20 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import EssentialLink from '@/components/EssentialLink.vue'
+
+const router = useRouter()
+const route = useRoute()
+const textoBusqueda = ref(route.query.search || '')
+
+const filtrarTelefonos = (val) => {
+  router.push({
+    path: '/',
+    query: { search: val ? val : undefined }
+  })
+}
+
 
 const linksList = [
   {
